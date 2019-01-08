@@ -1,3 +1,9 @@
+greet = [
+    "Привет, дорогой друг. Отвечаю на твой вопрос...\n\r",
+    "Кто вопрошает, тот получит ответ:\n\r",
+    "Здравствуй, смертный. Сегодня для тебя такой ответ:\n\r"
+]
+ 
 answers = [
     "It is certain (Бесспорно)",
     "It is decidedly so (Предрешено)",
@@ -21,4 +27,6 @@ answers = [
     "Very doubtful (Весьма сомнительно)"
 ]
 
+puts greet.sample
+sleep 2.5
 puts answers.sample
